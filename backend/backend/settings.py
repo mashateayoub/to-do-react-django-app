@@ -126,6 +126,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# whitelisted localhost:3000 : the frontend (which will be served on that port) of the application to interact with the API.
 CORS_ORIGIN_WHITELIST = [
      'http://localhost:3000'
 ]
